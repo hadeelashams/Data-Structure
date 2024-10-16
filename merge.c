@@ -7,16 +7,16 @@
 	void sortarray(int[], int);
 	void merge(int[],int,int[],int,int[]);
 	
-	printf("No of emement 1 array[1-20]:");
+	printf("No of element I array[1-20]:");
 	scanf("%d",&n1);
 	
-	printf("enter %d numbe;",n1);
+	printf("enter %d number:",n1);
 	readarray(ar1,n1);
 	
 	printf("No.of elements is II array[1-20]:");
 	scanf("%d",&n2);
 	
-	printf("enter %d number",n2);
+	printf("enter %d number:",n2);
 	readarray(ar2,n2);
 	sortarray(ar1,n1);
 	sortarray(ar2,n2);
